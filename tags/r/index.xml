@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Hi, I&#39;m Andy</title>
-    <link>http://andyly-codes.github.io/tags/r/</link>
+    <link>https://andyly-codes.github.io/tags/r/</link>
     <description>Recent content in R on Hi, I&#39;m Andy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <lastBuildDate>Tue, 04 Aug 2020 09:19:29 -0400</lastBuildDate>
     
-	<atom:link href="http://andyly-codes.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andyly-codes.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tracking movement behavior during a pandemic</title>
-      <link>http://andyly-codes.github.io/blog/covid_movement/post/</link>
+      <link>https://andyly-codes.github.io/blog/covid_movement/post/</link>
       <pubDate>Tue, 04 Aug 2020 09:19:29 -0400</pubDate>
       
-      <guid>http://andyly-codes.github.io/blog/covid_movement/post/</guid>
+      <guid>https://andyly-codes.github.io/blog/covid_movement/post/</guid>
       <description>At the time of writing, its been just over four months since coronavirus decided to visit the UK.
 While it seems like things are returning to some degree of normality - social distance permitting - the influence of the pandemic has no doubt changed the way we live, work and interact in society.</description>
     </item>
