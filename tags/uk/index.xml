@@ -12,12 +12,13 @@
     
     
     <item>
-      <title>Analyzing movement behavior in the UK</title>
-      <link>http://andyly-codes.github.io/blog/covid_movement/example-post/</link>
+      <title>Tracking movement behavior during a pandemic</title>
+      <link>http://andyly-codes.github.io/blog/covid_movement/post/</link>
       <pubDate>Tue, 04 Aug 2020 09:19:29 -0400</pubDate>
       
-      <guid>http://andyly-codes.github.io/blog/covid_movement/example-post/</guid>
-      <description>Google&amp;rsquo;s Covid DataJust taking some time out writing my dissertation to do a little bit of data viz and writing before getting back into it! I came across some data released by Google which has been around for a while. They provide insight into the trends of the movement of Android phone users who have opted-in to their data being collected. For the UK, the data is aggregated at the County level so we can who&amp;rsquo;s been good and social distancing at home and who&amp;rsquo;s been naughty and gathering in the parks during lockdown.</description>
+      <guid>http://andyly-codes.github.io/blog/covid_movement/post/</guid>
+      <description>At the time of writing, its been just over four months since coronavirus decided to visit the UK.
+While it seems like things are returning to some degree of normality - social distance permitting - the influence of the pandemic has no doubt changed the way we live, work and interact in society.</description>
     </item>
     
   </channel>
