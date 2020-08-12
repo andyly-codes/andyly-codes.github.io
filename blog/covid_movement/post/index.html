@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-uk">
     <head>
         
         <meta charset="utf-8">
@@ -17,7 +17,7 @@ Tracking Movement Behavior During a Pandemic - Hi, I&rsquo;m Andy
 
         <meta property="og:title" content="Tracking movement behavior during a pandemic - Hi, I&rsquo;m Andy" />
 <meta property="og:type" content="website" />
-<meta property="og:description" content="Google&#39;s watching you"/>
+<meta property="og:description" content="Visualising Google&#39;s Community Mobility Reports in ggplot"/>
 <meta property="og:url" content="http://andyly-codes.github.io/blog/covid_movement/post/"/>
 <meta property="og:site_name" content="Hi, I&rsquo;m Andy"/>
 
@@ -246,7 +246,7 @@ Tracking Movement Behavior During a Pandemic - Hi, I&rsquo;m Andy
 
 At the time of writing, its been just over four months since coronavirus decided to visit the UK.</p>
 <p>While it seems like things are returning to some degree of normality - social distance permitting - the influence of the pandemic has no doubt changed the way we live, work and interact in society.</p>
-<p>Documenting these changes is the COVID Community Mobility Reports, a dataset compiled and released by Google containing information on how we visit certain sites and amenities using geolocation data from Andriod users who have turned on Location history over the last four months.  Taking a break from writing my dissertation, I decided to draw up some data viz in R and dig around for any nuggets of interest.</p>
+<p>Documenting these changes is the COVID Community Mobility Report, a dataset compiled and released by Google containing information on the movements of Android users who have turned on location history. Taking a break from writing my dissertation, I decided to draw up some data viz in R and dig around for any nuggets of interest.</p>
 
 <h2 id="its-all-about-the-baseline" class="anchor-link"><a href="#its-all-about-the-baseline">It&rsquo;s all about the baseline</a></h2>
 <p>There are 6 main categories in the dataset representing different venues and amenities. These are:</p>
@@ -291,7 +291,6 @@ These are:</p>
 <p>The most dramatic shifts in movement behaviour is the interactions with park spaces. Given that people could only exercise in outdoor spaces during lockdown and were getting cabin fever from staying at home all day, this isn&rsquo;t all that suprising.</p>
 
 <h3 id="west-yorkshire" class="anchor-link"><a href="#west-yorkshire">West Yorkshire</a></h3>
-<p>West Yorkshire is where I&rsquo;m currently based so I wanted to see how we are behaving as a county. There is a steep rise in park visits soon after the one-hour outdoor exercise limit was eased, peaking on Spring Bank Holiday Monday when we were also blessed with good weather. While the park visits seem to follow a constant cycle, they don&rsquo;t really peak again, even with the hot weather over Summer. West Yorkshire is surrounded by several national parks - perhaps people are travelling further afield?</p>
 
 
 <div class="box fancy-figure caption-position-bottom caption-effect-slide" >
@@ -306,9 +305,9 @@ These are:</p>
   </figure>
 </div>
 
+<p>West Yorkshire is where I&rsquo;m currently based so I wanted to see how we are behaving as a county. There is a steep rise in park visits soon after the one-hour outdoor exercise limit was eased, peaking on Spring Bank Holiday Monday when we were also blessed with good weather. While the park visits seem to follow a constant cycle, they don&rsquo;t really peak again, even with the hot weather over Summer. West Yorkshire is surrounded by several national parks - perhaps people are travelling further afield?</p>
 
 <h3 id="dorset" class="anchor-link"><a href="#dorset">Dorset</a></h3>
-<p>Dorset is the home to the beautiful New Forest national park and the seaside resort town of Bournemouth, which has featured heavily during news coverage on the BBC with scenes of beaches packed with people. During the Summer months total visits peak at +300% at almost every spike - these seem to agree with the situation with the heatwaves and swarms of people visiting beaches in Bournemouth. Interestingly, the data for the 31st July, the hottest day of the year, was missing.  There&rsquo;s also a little spike in park visitors just before lockdown started - a brief look in the news for the local area didn&rsquo;t unearth any events or particularly warm weather events, so not sure what happened (maybe a final dash of freedom before getting locked in..? :) ) By August 4th, levels of visitors to retail and recreation business visitors return to pre-Covid levels.</p>
 
 
 <div class="box fancy-figure caption-position-bottom caption-effect-slide" >
@@ -323,10 +322,9 @@ These are:</p>
   </figure>
 </div>
 
+<p>Dorset is the home to the beautiful New Forest national park and the seaside resort town of Bournemouth, which has featured heavily during news coverage on the BBC with scenes of beaches packed with people. During the Summer months total visits peak at +300% at almost every spike - these seem to agree with the situation with the heatwaves and swarms of people visiting beaches in Bournemouth. Interestingly, the data for the 31st July, the hottest day of the year, was missing.  There&rsquo;s also a little spike in park visitors just before lockdown started - a brief look in the news for the local area didn&rsquo;t unearth any events or particularly warm weather events, so not sure what happened (maybe a final dash of freedom before getting locked in..? :) ) By August 4th, levels of visitors to retail and recreation business visitors return to pre-Covid levels.</p>
 
 <h3 id="cumbria" class="anchor-link"><a href="#cumbria">Cumbria</a></h3>
-<p>Home of the my favourite national park, the Lake District. 
-Outdoor activity doesn&rsquo;t seem to pick up until the Spring Bank Holiday when a spike appears. Subsequent good weather through July increases Park visits by up to 200%, with the peak on the 31st July, the hottest day of 2020 so far. Interesting to note, visits to retail and recreation are almost back to pre-COVID levels, similar to Dorset. Perhaps this is driven by the influx of people visiting park areas? 
 
 
 <div class="box fancy-figure caption-position-bottom caption-effect-slide" >
@@ -340,10 +338,11 @@ Outdoor activity doesn&rsquo;t seem to pick up until the Spring Bank Holiday whe
       </figcaption>
   </figure>
 </div>
-</p>
+
+<p>Home of my favourite national park, the Lake District. 
+Outdoor activity doesn&rsquo;t seem to pick up until the Spring Bank Holiday when a spike appears. Subsequent good weather through July increases Park visits by up to 200%, with the peak on the 31st July, the hottest day of 2020 so far. Interesting to note, visits to retail and recreation are almost back to pre-COVID levels, similar to Dorset. Perhaps this is driven by the influx of people visiting park areas?</p>
 
 <h3 id="greater-london" class="anchor-link"><a href="#greater-london">Greater London</a></h3>
-<p>The pattern in Park visitor changes looks most similar to the pattern in West Yorkshire - characterised by a gradual rise with the easing of outdoor exercise restrictions, followed by a constant pattern in the following weeks. It also seems the recovery of retail and recreation sector hasn&rsquo;t been as strong as the other regions.</p>
 
 
 <div class="box fancy-figure caption-position-bottom caption-effect-slide" >
@@ -358,6 +357,7 @@ Outdoor activity doesn&rsquo;t seem to pick up until the Spring Bank Holiday whe
   </figure>
 </div>
 
+<p>The pattern in Park visitor changes looks most similar to the pattern in West Yorkshire - characterised by a gradual rise with the easing of outdoor exercise restrictions, followed by a constant pattern in the following weeks. It also seems the recovery of retail and recreation sector hasn&rsquo;t been as strong as the other regions.</p>
 
 <h2 id="thoughts" class="anchor-link"><a href="#thoughts">Thoughts</a></h2>
 <p>There seems to be a pattern between two types of areas - while park visitor changes display a relatively constant pattern in West Yorkshire and Greater London, Dorset and Cumbria see massive spikes in visits after lockdown measures are eased, coinciding with the recent good weather. The spikes in visitors also seem to also coincide with an uplift in retail and recreation spaces, returning to pre-COVID levels in these areas. Of course this is only speculative - it&rsquo;d be difficult to have confindence based on a sample of four obervations.</p>
@@ -416,9 +416,7 @@ Outdoor activity doesn&rsquo;t seem to pick up until the Spring Bank Holiday whe
                 <div class="section" id="footer">
     <div class="container has-text-centered">
     
-        <span class="footer-text">
-            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i></a> by open source contributors.
-        </span>
+        Powered with data and Yorkshire Tea
     
     </div>
 </div>
