@@ -6,10 +6,19 @@
     <description>Recent content on Hi, I&#39;m Andy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 04 Aug 2020 09:19:29 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2020 11:32:17 +0100</lastBuildDate>
     
 	<atom:link href="https://andyly-codes.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creating a Geodemographic Classification in R</title>
+      <link>https://andyly-codes.github.io/blog/geodemographic_classification/default/</link>
+      <pubDate>Sat, 15 Aug 2020 11:32:17 +0100</pubDate>
+      
+      <guid>https://andyly-codes.github.io/blog/geodemographic_classification/default/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Tracking movement behavior during a pandemic</title>
