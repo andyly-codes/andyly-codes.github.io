@@ -6,20 +6,10 @@
     <description>Recent content in R on Hi, I&#39;m Andy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 15 Aug 2020 11:32:17 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2020 09:19:29 -0400</lastBuildDate>
     
 	<atom:link href="https://andyly-codes.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Creating a Geodemographic Classification in R</title>
-      <link>https://andyly-codes.github.io/blog/geodemographic_classification/default/</link>
-      <pubDate>Sat, 15 Aug 2020 11:32:17 +0100</pubDate>
-      
-      <guid>https://andyly-codes.github.io/blog/geodemographic_classification/default/</guid>
-      <description>A geodemographic classification for marketing purposes.
-   Geodemographic classifications are basically a way of geographically grouping similar people based on their demographics. You may have heard that &amp;ldquo;birds of a feather, flock together&amp;rdquo; meaning that similar people with similar demographics are likely to live in close proximity to each other.</description>
-    </item>
     
     <item>
       <title>Tracking movement behavior during a pandemic</title>
